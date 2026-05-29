@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f7fbff;
+  color: #10243b;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+}
+
+body::selection {
+  background: #0b63ce;
+  color: #ffffff;
+}
+
+.metal-grid {
+  background-image:
+    linear-gradient(rgba(11, 99, 206, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(11, 99, 206, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.technical-surface {
+  background:
+    linear-gradient(135deg, rgba(11, 99, 206, 0.08), transparent 36%),
+    linear-gradient(180deg, #ffffff, #eef6ff);
+}
+
+.premium-panel {
+  background:
+    linear-gradient(180deg, #ffffff, #f1f7ff),
+    linear-gradient(135deg, rgba(11, 99, 206, 0.08), transparent 42%);
+}
+
+.industrial-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(11, 99, 206, 0.7), rgba(34, 82, 128, 0.16), transparent);
+}
+
+.text-white {
+  color: #10243b !important;
+}
+
+.text-steel-100,
+.text-steel-200,
+.text-steel-300,
+.text-steel-400 {
+  color: #48627d !important;
+}
+
+.bg-black,
+.bg-navy-950,
+.bg-navy-900,
+.bg-steel-900 {
+  background-color: #f7fbff !important;
+}
+
+.border-white\/10,
+.border-white\/15,
+.border-white\/20,
+.border-white\/25 {
+  border-color: #d7e6f5 !important;
+}
+
+a.bg-signal,
+button.bg-signal {
+  color: #ffffff !important;
+}
